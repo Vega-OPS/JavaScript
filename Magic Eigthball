@@ -1,0 +1,39 @@
+var userName = ''
+userName ? console.log('hello ' + userName) : console.log('Hello');
+
+const userQuestion = userName + ' What question do you want to ask the Magic Eight Ball?'
+console.log(`The user asked: ${userQuestion}`);
+
+const randomNumber = Math.floor(Math.random() * 8);
+
+let eightBall = 'tomorrow?';
+
+switch (randomNumber) {
+  case 0:
+    eightball = 'It is certain'
+    break;
+  case 1:
+    eightball = 'It is decidedly so'
+  break;
+  case 2: 
+    eightball = 'Reply hazy try again'
+  break;
+  case 3:
+    eightball = 'Maybe'
+  break;
+  case 4:
+    eightball = 'case four'
+    break;
+  case 5:
+    eightball = 'my source say no'
+    break; 
+  case 6: 
+    eightball = 'Outlook not so good'
+    break;
+  case 7:
+    eightball = "Signs point to yes"
+ 	break; 
+}
+
+console.log(`The eight ball answered: ${eightball}`);
+

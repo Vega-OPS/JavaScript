@@ -1,0 +1,24 @@
+// Write your function here:
+
+const tipCalculator = (quality, total) => {
+  switch (quality) {
+    case quality = 'bad':
+      return total * 0.05
+    case quality = 'ok':
+      return total * 0.15
+    case quality = 'good':
+      return total * 0.20
+    case quality = 'excellent':
+      return total * 0.30
+    default:
+      return total * 0.18
+  }
+}
+
+
+
+
+// Uncomment the line below when you're ready to try out your function
+ console.log(tipCalculator('good', 100)) //should return 20
+
+// We encourage you to add more function calls of your own to test your code!
